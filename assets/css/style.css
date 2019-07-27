@@ -14,6 +14,8 @@ body {
 
 .container {
   width: 100%;
+ 
+
   max-width: 960px;
   margin: 0 auto;
   clear: both;
@@ -214,4 +216,8 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+@media screen and (max-width: 980ps){
+    
 }
