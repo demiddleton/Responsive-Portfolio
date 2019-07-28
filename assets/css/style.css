@@ -219,6 +219,10 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
+    
+    header {
+        margin-right: 20px;
+    }
     #logo {
         float: left;
         width: 250px;
@@ -236,7 +240,33 @@ input[type=submit] {
     
     #main-container {
         width: 60%;
+        height: 60%;
     }
+
+    body {
+        font-size: 18px;
+    }
+    #main-container {
+        padding-top: 80px;
+        padding-bottom: 40px;
+        margin-left: 20px;
+        margin-top: 40px;
+        }
+      
+      .main-section {
+        float: left;
+        width: 600px;
+        padding: 20px;
+        margin: 0;
+        font-size: 14px;
+        height: 600px;
+        
+        }
+
+      .auth-image {
+          width: 150px;;
+        }
+      
 }
 
 @media screen and (max-width: 768px) {
